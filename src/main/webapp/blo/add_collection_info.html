@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Collection Info</title>
+</head>
+<body>
+	<a href='../formCollection'>Go back</a><br><br>
+	<h2><u>Add form collection details</u></h2><br><br>
+	<form name="newCollection" method="post" action="../addCollectionInfo">
+	Voter Id: <input type="text" name="voter_id" required/><br><br>
+	Date of collection: <input type="date" name="collect_date" required/><br><br>
+	Form collection mode:<select name="collect_mode" id="collect_mode" required>
+	<option value="In person">In person</option>
+	<option value="Collection center">Collection center</option>
+	<option value="Relative">Relative</option>
+	<option value="Neighbour">Neighbour</option>
+	<option value="Other">Other</option>
+	</select>
+	<br><br>
+	<input type="submit" value="submit" />
+	</form>
+</body>
+</html>

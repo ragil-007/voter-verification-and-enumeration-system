@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Upload Info</title>
+</head>
+<body>
+	<a href='../formUpload'>Go back</a><br><br>
+	<h2><u>Add form upload information</u></h2><br><br>
+	<form name="newUploadInfo" method="post" action="../addUploadInfo">
+	Voter Id: <input type="text" name="voter_id" required/><br><br>
+	Upload date: <input type="date" name="dist_date" required/><br><br>
+	Upload status:<input type="radio" id="status_success" name="upload_status" value="success" required>
+	<label for="status_success">Success</label><br>
+	<input type="radio" id="status_fail" name="upload_status" value="fail">
+	<label for="status_fail">Fail</label>
+	<br><br>
+	Remarks: <input type="text" name="remarks" required/><br><br>
+	<input type="submit" value="submit" />
+	</form>
+</body>
+</html>

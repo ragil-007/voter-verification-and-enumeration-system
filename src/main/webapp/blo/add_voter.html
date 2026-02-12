@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add voter</title>
+</head>
+<body>
+	<a href='../voterDetails'>Go back</a><br><br>
+	<h2><u>Add new voter information</u></h2><br><br>
+	<form name="voterAdd" method="post" action="../newVoter">
+	Voter name: <input type="text" name="voter_name" required/><br><br>
+	EPIC no: <input type="text" name="epic_no" required/><br><br>
+	Address:<textarea name="address" rows="3" required></textarea><br><br>
+	DOB:<input type="date" name="dob" required/><br><br>
+	Adhar no:<input type="text" name="adhar_no" required/><br><br>
+	Mobile no:<input type="text" name="mobile_no" required/><br><br>
+	Booth no:<select name="booth_no" id="booth_no" required>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	</select><br><br>
+	Ward no:<select name="ward_no" id="ward_no" required>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	</select><br><br>
+	Assembly:<select name="assembly" id="assembly" required>
+	<option value="Thaliparamba">Thaliparamba</option>
+	<option value="Irikkoor">Irikkoor</option>
+	<option value="Azhikode">Azhikode</option>
+	<option value="Kannur">Kannur</option>
+	<option value="Dharmadam">Dharmadam</option>
+	<option value="Thalassery">Thalassery</option>
+	<option value="Kuthuparamba">Kuthuparamba</option>
+	<option value="Mattannur">Mattannur</option>
+	<option value="Iritty">Iritty</option>
+	<option value="Peravoor">Peravoor</option>
+	<option value="Kalliasseri">Kalliasseri</option>
+	</select><br><br>
+	District:<select name="district" id="district" required>
+	<option value="Thiruvananthapuram">Thiruvananthapuram</option>
+	<option value="Thiruvananthapuram">Kollam</option>
+	<option value="Pathanamthitta">Pathanamthitta</option>
+	<option value="Alappuzha">Alappuzha</option>
+	<option value="Kottayam">Kottayam</option>
+	<option value="Idukki">Idukki</option>
+	<option value="Ernakulam">Ernakulam</option>
+	<option value="Thrissur">Thrissur</option>
+	<option value="Palakkad">Palakkad</option>
+	<option value="Malappuram">Malappuram</option>
+	<option value="Kozhikode">Kozhikode</option>
+	<option value="Wayanad">Wayanad</option>
+	<option value="Kannur">Kannur</option>
+	<option value="Kasaragod">Kasaragod</option>
+	</select>
+	<br><br>
+	<input type="submit" value="submit" />
+	</form>
+</body>
+</html>
